@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="133.0" prefWidth="215.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClasses.ProgressController">
+    <children>
+        <TextField fx:id="name" layoutX="31.0" layoutY="24.0" promptText="Name" />
+        <TextField fx:id="unit" layoutX="31.0" layoutY="63.0" promptText="Unit" />
+        <Button fx:id="submit_button" layoutX="79.0" layoutY="94.0" mnemonicParsing="false" text="Submit" />
+    </children>
+</AnchorPane>

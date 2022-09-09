@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="327.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClasses.ControllerInsertPlayer">
+    <children>
+        <TextField fx:id="name" layoutX="62.0" layoutY="34.0" promptText="Name" />
+        <TextField fx:id="age" layoutX="62.0" layoutY="73.0" promptText="Age" />
+        <TextField fx:id="nationality" layoutX="62.0" layoutY="107.0" promptText="Nationality" />
+        <TextField fx:id="player_position" layoutX="62.0" layoutY="143.0" promptText="Player Position" />
+        <TextField fx:id="height" layoutX="62.0" layoutY="178.0" promptText="Height" />
+      <TextField fx:id="weight" layoutX="62.0" layoutY="216.0" promptText="Weight" />
+      <TextField fx:id="team_id" layoutX="62.0" layoutY="254.0" promptText="Team id" />
+        <Button fx:id="submit_button" layoutX="110.0" layoutY="288.0" mnemonicParsing="false" text="Submit" />
+      <TableView fx:id="team_table" layoutX="238.0" layoutY="32.0" prefHeight="244.0" prefWidth="200.0" />
+      <Label layoutX="321.0" layoutY="6.0" text="Teams" />
+    </children>
+</AnchorPane>

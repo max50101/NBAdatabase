@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="327.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClasses.PlayerStatsContorller">
+    <children>
+        <TextField fx:id="value" layoutX="36.0" layoutY="20.0" prefHeight="25.0" prefWidth="112.0" promptText="Value" />
+        <TextField fx:id="player_id" layoutX="165.0" layoutY="20.0" prefHeight="25.0" prefWidth="98.0" promptText="Player id" />
+        <TextField fx:id="progress_id" layoutX="275.0" layoutY="20.0" prefHeight="25.0" prefWidth="98.0" promptText="Progress Id" />
+        <Button fx:id="submit_button" layoutX="381.0" layoutY="20.0" mnemonicParsing="false" text="Submit" />
+        <TableView fx:id="team_table" layoutX="19.0" layoutY="69.0" prefHeight="244.0" prefWidth="207.0" />
+      <TableView fx:id="player_id_table" layoutX="237.0" layoutY="69.0" prefHeight="244.0" prefWidth="198.0" />
+    </children>
+</AnchorPane>

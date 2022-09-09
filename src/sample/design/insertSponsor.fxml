@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="327.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClasses.SposnorController">
+    <children>
+        <TextField fx:id="name" layoutX="36.0" layoutY="20.0" prefHeight="25.0" prefWidth="112.0" promptText="Name" />
+        <TextField fx:id="Contract_sum" layoutX="165.0" layoutY="20.0" prefHeight="25.0" prefWidth="98.0" promptText="Contract sum" />
+        <TextField fx:id="reference_id" layoutX="275.0" layoutY="20.0" prefHeight="25.0" prefWidth="98.0" promptText="Reference ID" />
+        <Button fx:id="submit_button" layoutX="381.0" layoutY="20.0" mnemonicParsing="false" text="Submit" />
+        <TableView fx:id="team_table" layoutX="101.0" layoutY="63.0" prefHeight="244.0" prefWidth="251.0" />
+    </children>
+</AnchorPane>

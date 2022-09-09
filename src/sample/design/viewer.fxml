@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClasses.ViewerController">
+    <children>
+        <TableView fx:id="table_view" layoutX="31.0" layoutY="47.0" prefHeight="343.0" prefWidth="500.0" stylesheets="@tableedit.css" />
+      <Button fx:id="show_players" layoutX="553.0" layoutY="56.0" mnemonicParsing="false" text="Show Players" />
+      <Button fx:id="show_coaches" layoutX="549.0" layoutY="218.0" mnemonicParsing="false" text="Show Coaches" />
+      <Button fx:id="show_managers" layoutX="545.0" layoutY="365.0" mnemonicParsing="false" text="Show managers" />
+      <Button fx:id="get_back" layoutX="31.0" layoutY="14.0" mnemonicParsing="false" text="Back to Teams" />
+      <TextField fx:id="name_searc_f" layoutX="31.0" layoutY="404.0" prefHeight="25.0" prefWidth="500.0" promptText="Name for Search" />
+      <Button fx:id="search" layoutX="545.0" layoutY="404.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Search" />
+    </children>
+</AnchorPane>

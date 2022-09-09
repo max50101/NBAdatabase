@@ -1,0 +1,8 @@
+.text-field-table-cell .text-field {
+      -fx-padding: 1;
+      -fx-border-color:red;
+
+}
+.table-cell:focused {
+      -fx-padding: 0;
+}
