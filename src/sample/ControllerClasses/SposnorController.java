@@ -16,7 +16,7 @@ public class SposnorController {
 
     @FXML
     private TextField Contract_sum;
-/home/maks
+
     @FXML
     private TextField reference_id;
 

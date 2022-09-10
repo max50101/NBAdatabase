@@ -203,7 +203,7 @@ public class InterfaceController {
             root = FXMLLoader.load(url);
             Stage stage = new Stage();
             stage.setTitle("My New Stage Title");
-            stage.getIcons().add(new Image("file:C://Users//MaksPC/IdeaProjects//NBAdatabase//image_icon.png"));
+            stage.getIcons().add(new Image("file:C:\\Users\\maks\\IdeaProjects\\NBAdatabase\\image_icon.png"));
             stage.setScene(new Scene(root, x, y));
             stage.show();
 

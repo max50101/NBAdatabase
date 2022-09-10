@@ -15,7 +15,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("design/sample.fxml"));
         primaryStage.setTitle("NBA league");
         primaryStage.setScene(new Scene(root, 600, 400));
-        primaryStage.getIcons().add(new Image("file:C://Users//MaksPC/IdeaProjects//NBAdatabase//image_icon.png"));
+        primaryStage.getIcons().add(new Image("file:C:\\Users\\maks\\IdeaProjects\\NBAdatabase\\image_icon.png"));
         primaryStage.show();
 
     }
